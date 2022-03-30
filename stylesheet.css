@@ -1,0 +1,77 @@
+body {
+    background-image: url(img/prism.png);
+}
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.calculator-screen {
+    width: 99%;
+    height: 100px;
+    background-color: #171717;
+    color: #fff;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #202020;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: #171717;
+    border: 1px solid #202020;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+    margin: 2px 2px;
+    transition: 0.1s;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.all-clear {
+    color: #e74c3c;
+}
+
+.operator {
+    background-color: #171717;
+    color: #98d45a;
+}
+
+.equal-sign {
+    background-color: #427e04;
+    color: #fff;
+}
+
+.equal-sign:hover {
+    background-color: #6ab04c;
+}
+
+button:hover {
+    background-color: #2d3436;
+}
+
+.operator:hover {
+    background-color: #2d3436;
+}
+
+button:active {
+    font-size: 24px;
+}
